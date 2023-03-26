@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="mx-96 mt-12">
+    <!-- heading starts here -->
+    <div class="space-y-4">
+        <div>
+            <p class="text-3xl font-bold">Job Application (Web)</p>
+        </div>
+        <!-- Main Page -->
+        <div class="flex flex-row space-x-32">
+            <p>First Name <br> <input type="text" name="Enter First Name " id="" class="border-2 border-black" placeholder="First Name"></p>
+            <p>Last Name <br> <input type="text" name="Enter Last Name" id="" class="border-2 border-black" placeholder="Last Name"></p>
+        </div>
+        <div class="flex flex-row space-x-32">
+            <div>
+                <p>Email <br> <input type="email" name="Enter Email" id="" class="border-2 border-black" placeholder="Enter Email Address"></p>
+            </div>
+            <div>
+                <label for="Job-names">Choose a job name: <br></label>
+                <select name="Job-names" id="Job-names" class="border-2 border-black">
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                    <option value="Data Science">Data Science</option>
+                </select>
+            </div>
+        </div>
+        
+        <div>
+            <p>Enter Address <br> <input type="text" name="" id="" class="border-2 border-black h-24 w-[32rem]" placeholder="Address"></p>
+        </div>
+        <div class="flex flex-row space-x-32">
+            <p>City <br> <input type="text" name="" id="" class="border-2 border-black" placeholder="Enter City Name"></p>
+            <p>Pin Code <br> <input type="text" name="" id="" class="border-2 border-black" placeholder="Pin Code"></p>
+        </div>
+        <div class="flex flex-row space-x-44">
+            <p>Start Date <br> <input type="date" name="" id="" class="border-2 border-black"></p>
+            <p>Upload Your CV <br> <input type="file" name="" id=""></p>
+        </div>
+        <p class="border-2 border-black w-28 px-2 py-1 bg-red-300 ml-96 rounded-lg">Apply Now</p>
+    </div>
+</body>
+
+</html>
